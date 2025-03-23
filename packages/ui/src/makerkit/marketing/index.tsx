@@ -9,6 +9,8 @@ export * from './header';
 export * from './footer';
 export * from './feature-showcase';
 export * from './feature-grid';
+export * from './feature-card-with';
+export * from './feature-grid';
 export * from './feature-card';
 export * from './newsletter-signup';
 export * from './newsletter-signup-container';

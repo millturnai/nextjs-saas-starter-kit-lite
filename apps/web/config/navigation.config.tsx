@@ -20,6 +20,17 @@ const routes = [
     ],
   },
   {
+    label: 'common:routes.application',
+    children: [
+      {
+        label: 'common:routes.dashboard',
+        path: pathsConfig.app.dashboard,
+        Icon: <Home className={iconClasses} />,
+        end: true,
+      },
+    ],
+  },
+  {
     label: 'common:routes.settings',
     children: [
       {
